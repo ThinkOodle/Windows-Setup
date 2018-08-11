@@ -1,5 +1,6 @@
 sudo apt install git
 sudo apt install python3
+sudo apt install build-essential
 
 # NVM + Yarn
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash
