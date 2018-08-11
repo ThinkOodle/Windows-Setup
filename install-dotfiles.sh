@@ -7,13 +7,9 @@
 # DOTFILES_ROOT=$(pwd)
 DOTZSH=$HOME/.dotfiles
 
-case "$SHELL" in
-  */zsh) : ;;
-  *)
-    echo "Changing your shell to zsh ..."
-      chsh -s "$(which zsh)"
-    ;;
-esac
+if [ -t 1 ]; then
+exec zsh
+fi
 
 set -e
 
