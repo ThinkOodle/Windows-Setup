@@ -7,10 +7,6 @@
 # DOTFILES_ROOT=$(pwd)
 DOTZSH=$HOME/.dotfiles
 
-if [ -t 1 ]; then
-exec zsh
-fi
-
 set -e
 
 echo ''
