@@ -3,7 +3,7 @@ sudo apt install python3
 sudo apt install build-essential
 
 # NVM + Yarn
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | sh
 nvm install --lts
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
